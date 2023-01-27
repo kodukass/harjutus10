@@ -13,4 +13,7 @@ jobs:
       body: good job
       to: emmamaeroodla284@gmail.com
       from: Github actions
+      ${{github.repository}}
+      ${{github.event.pusher.name}}
+      ${{github.event.head_commit.message}}
     on: [push]
