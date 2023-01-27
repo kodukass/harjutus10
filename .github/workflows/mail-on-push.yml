@@ -12,6 +12,6 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Github Commit ${{github.event.head_commit.message}}
           body: ${{github.repository}} ${{github.event.pusher.name}}
-          to: testdummymybeloved@gmail.com
+          to: testdummymybeloved@gmail.como
           from: Github actions
           
