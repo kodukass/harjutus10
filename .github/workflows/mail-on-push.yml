@@ -13,4 +13,4 @@ jobs:
       body: good job
       to: emmamaeroodla284@gmail.com
       from: Github actions
-  on: [push]
+    on: [push]
