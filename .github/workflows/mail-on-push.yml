@@ -4,13 +4,13 @@ jobs:
     steps:
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
-    with:
-      server_address: smtp.gmail.com
-      server_port: 465
-      username: ${{secrets.MAIL_USERNAME}}
-      password: ${{secrets.MAIL_PASSWORD}}
-      subject: wow see töötab
-      body: good job
-      to: emmamaeroodla284@gmail.com
-      from: Github actions
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          subject: wow see töötab
+          body: good job
+          to: emmamaeroodla284@gmail.com
+          from: Github actions
 on: [push]
