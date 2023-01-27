@@ -8,8 +8,8 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: ${{secrets.MAIL_USERNAME}}
-          password: ${{secrets.MAIL_PASSWORD}}
+          username: testdummymybeloved@gmail.com
+          password: emmakene
           subject: Github Commit ${{github.event.head_commit.message}}
           body: ${{github.repository}} ${{github.event.pusher.name}}
           to: emma.mae.roodla@gmail.com
