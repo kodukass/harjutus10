@@ -1,3 +1,5 @@
+name: Mail On Push
+run-name: ${{ github.actor }} Harjutus 10
 on: [push]
 jobs:
   mail_on_push:
